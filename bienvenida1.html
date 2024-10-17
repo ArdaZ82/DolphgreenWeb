@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+
+    <h1> NUESTROS PRODUCTOS</h1>
+
+    <div class="products">
+        <div class="product" data-name="Producto 1" data-price="20">
+            <img src="manorobot.jpg" alt="Producto 1">
+            <h3>Mano Robotica</h3>
+            <p>$20.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+
+        <div class="product" data-name="Producto 2" data-price="35">
+            <img src="gallinaule.jpg" alt="Producto 2">
+            <h3>Gallina Asesina</h3>
+            <p>$35.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        
+        <div class="product" data-name="Producto 3" data-price="50">
+            <img src="patito.jpg" alt="Producto 3">
+            <h3>Patitokarateca</h3>
+            <p>$50.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Mi Carrito Chocon   </h2>
+        <ul class="cart-items"></ul>
+        <p class="total-price">Total: $0.00</p>
+        <button class="checkout">Checkout</button>
+    </div>
+
+    <script src="carrito.js"></script>
+</body>
+</html>

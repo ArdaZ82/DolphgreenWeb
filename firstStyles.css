@@ -1,0 +1,182 @@
+body{
+    background-image:linear-gradient(to right, rgb(177, 255, 194), rgb(229, 255, 222));
+}
+.menuBar{
+    width:100%;
+    background-color: greenyellow;
+    padding: 0px;
+    position:absolute;
+    display:flex;
+    flex-direction:row; 
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+.menuBar h1{
+    font-size: 20px;
+    padding:0;      
+    text-align: center;
+    margin-left:20px;
+    cursor:pointer;
+}
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.nave{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: 0 20px;
+    position: relative;
+
+}
+.nave:hover{
+    text-decoration: underline;
+    border:black;
+    padding:10px;
+    color: rgb(14, 200, 14);
+}
+
+.paginas{  
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+}
+
+.nave{
+    padding: 15px 20px;
+    border:transparent;
+}
+/* AHORA VAMOS A VER SOBRE LA PAGINA DE INICIO  */
+.presentation{
+    display:flex;
+    flex-direction: row;
+    margin: 90px 10px 50px;
+}
+.presentationLeft{
+    background-color:rgb(75, 213, 110);
+    width: 50%;
+    height:600px;
+    border-top-left-radius: 10px;
+
+}
+
+.presentationRight{
+    background-color:rgb(186, 223, 90);
+    width:50%;
+    height:600px;
+    border-bottom-right-radius: 10px;;
+
+}
+
+.presentation h1{
+    font-size:35px;
+}
+.presentationLeft h1{
+    position: absolute;
+    margin: 10px 10px;
+    margin-left:490px;
+    top:150px;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;   
+}
+.presentationRight h1{
+    margin: 10px 10px;
+    font-size: 55px;
+    position:absolute;
+    top:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+
+/*VISION DEL PROYECTO*/
+.vision{
+    background-color: rgba(0, 0, 0, 0.399);
+    width: 400px;
+    height: 500px;
+    border-radius:10px;
+    position:relative;
+    left: 10px;
+    color:white;
+    margin-top: 50px;
+}
+
+.vision h2{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    position: relative;
+    top:10px;
+}
+
+.vision p{
+    font-size: 20px;
+    line-height: 35px;
+    margin: 20px;
+    text-align: justify;
+}
+
+/* MISION PARTE DERECHA*/
+
+.mision{
+    background-color: rgba(0, 0, 0, 0.456);
+    width:400px;
+    height:500px;
+    position:relative;
+    left: 330px;
+    border-radius:10px;
+    color:white;  
+    margin-top: 50px;
+}
+
+.mision h2{
+    text-align:center;
+    text-decoration:underline;
+    font-size:40px;
+    position:relative;
+    top: 10px;
+
+}
+
+.mision p{
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+/*central*/
+
+.encima{
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 290px;
+    left:510px;
+    border-radius: 30px;
+    color:white;
+}
+
+.encima h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.encima p{
+    margin: 10px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="unete2.css">
+    <script src="logear.js"></script>
+</head>
+<body>
+    <button id="darkModeToggle">Activar Dark Mode</button>
+    <form class="padrecito">
+        
+        <h1> REGISTRO </h1>
+        <div class="primero">
+            <input id="usuario" type="text" placeholder="Escribe tu correo" required>
+            <label class="lbl-correo">
+                <span class="txt-correo">
+                    Correo
+                </span>
+            </label>
+        </div>
+        <div class="segundo">
+            <input id="clave" type="text" placeholder="Escribe tu contraseña" required>
+            <label class="lbl-contraseña">
+                <span class="txt-contraseña">
+                    Contraseña
+                </span>
+            </label>
+        </div>
+        <label class="enviar">Enviar</label>
+        <input class="btn" onclick="loguear()" type="button">   
+    </form>
+    <script src="darkmode.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(12, 227, 255), rgb(218, 246, 255));
+}
+.padrecito{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2, 90, 109);
+    height: 400px;
+    width: 100%;
+    max-width: 450px;
+    position:absolute;
+    line-height: 50px;
+    left:550px;
+    top:150px;
+    border-radius: 10px;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+
+}
+
+.padrecito h1{
+    color:white;
+    position:relative;
+    top:-50px;
+    text-decoration: underline;
+}
+
+.primero{
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    height: 100px;
+}
+.primero input{
+    width:100%;
+    outline: none; 
+    border:none;
+    background: none;
+    color: white;
+    padding-top: 20px;
+}
+
+.primero .lbl-correo{
+    position:absolute;
+    top:100px;
+    display:block;
+    width: 90%;
+    height:60px;
+    pointer-events: none;
+    color:rgb(3, 248, 252);
+}
+
+.primero input:focus{
+    border-bottom: solid 2px rgba(31, 255, 255, 0.975);
+}
+
+
+.segundo{
+    width:100%;
+    max-width: 400px;
+    overflow: hidden;
+    
+}
+.segundo input{
+    width: 100%;
+    outline: none; 
+    border:none;
+    background: none;
+    color:white;
+    padding-top: 20px;
+}
+.segundo input:focus{
+    border-bottom: solid 2px rgba(31, 255, 255, 0.975);
+}
+
+
+input[type="submit"]{
+    padding: 20px;
+    background: rgb(1, 48, 47);
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    outline:none;
+    border: none;
+    width:300px;
+}
+.segundo .lbl-contraseña{
+    position:absolute;
+    top:210px;
+    display:block;
+    width: 90%;
+    height:62px;
+    pointer-events: none;
+    color:rgb(3, 248, 252);
+}
+
+.btn{
+    background-color:rgb(21, 57, 57);
+    width: 400px;
+    height: 30px;
+    outline: none; 
+
+}  
+.bnt:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.enviar{
+    color:white;
+    position:relative;
+    top:40px;
+    pointer-events: none;
+}
+
+.dark-mode{
+    background-image: linear-gradient(to right, black, aqua);
+    color: white;
+}
+
+#darkModeToggle{
+    background:rgb(47, 255, 179);
+    outline: none;
+    padding:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    border:none;
+}
+#darkModeToggle:hover{
+    background-color: rgb(3, 53, 61);
+    color:white;
+}
+

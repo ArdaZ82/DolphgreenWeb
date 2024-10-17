@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(to right, rgb(184, 243, 56), rgb(61, 106, 24));
+}
+
+.cuadroLog{
+    background-color: rgb(10, 100, 89);
+    width: 350px;
+    height: 500px;
+    position:absolute;
+    left: 37%;
+    top: 100px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    border-left: solid 5px rgb(37, 255, 215);
+    border-right: solid 5px rgb(28, 228, 221);
+
+}
+.cuadroLog h1{
+    text-align:center;
+    position: relative;
+    top:30px;
+    color:white;
+}
+
+.form2{
+    background-color:none;
+    width:100%;
+    max-width: 300px;
+    height:50px;
+    position: relative;
+    left: 25px;
+    top: 70px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.form2 input{
+    background:none;
+    outline:0;
+    border:none;
+    width:90%;
+    color:white;
+    height: 70%;
+}
+
+.form2 input:focus{
+    border-bottom: solid 2px rgb(14, 252, 236);
+}
+.form1{
+    width:100%;
+    max-width: 300px;
+    height:50px;
+    position:relative;
+    left: 25px;
+    top: 80px;
+    border-radius: 5px; 
+    overflow:hidden;
+}
+
+.form1 input{
+    background: none;
+    width:90%;
+    height: 70%;
+    color:white;
+    border: none;
+    outline: 0;
+}
+
+.form1 input:focus{
+    border-bottom: solid 2px rgb(36, 251, 255);
+}
+
+
+.registrar button{
+    background-color: rgb(255, 94, 0);
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    padding:10px;
+    position:relative;
+    top:150px;
+    left: 130px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:none;
+    border-radius:5px;
+}
+
+button:hover{
+    padding:15px;
+    background-color: rgb(255, 255, 255);;
+    color:rgb(255, 94, 0);
+}
